@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+
+    .main__food-items {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .main__sales-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .main__burger-info {
+        justify-content: space-around;
+        column-gap: 0;
+    }
+}
+
+@media (max-width:996px) {
+    .main__burger-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .nav__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .main__download {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 50px 0;
+        justify-content: center;
+    }
+
+    .main__Sales-description {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .nav__content-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .main__burger-description {
+        align-items: center;
+        padding: 0 2%;
+    }
+
+
+
+    .main__Sales-title {
+        margin-bottom: 10px;
+
+    }
+
+    .main__Sales-description {
+        margin-bottom: 6px;
+
+    }
+
+    .main__Sales-prices {
+        margin-bottom: 6px;
+
+    }
+
+
+    .button {
+        font-size: 14px;
+        line-height: 16px;
+        font-family: var(--RR);
+        color: var(--white);
+        padding: 8px 20px;
+        background-color: var(--orange);
+        border-radius: 5px;
+        width: max-content;
+
+    }
+
+    .header__content-name {
+        margin-bottom: 4px;
+
+    }
+
+    .header__content-title {
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+
+    .header__content-description {
+        margin-bottom: 30px;
+        
+
+    }
+
+    .hader__content-info  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download__title {
+        font-size: 30px;
+        line-height: 37px;
+        font-family: var(--RM);
+        color: var(--white);
+    
+    }
+
+
+
+}
